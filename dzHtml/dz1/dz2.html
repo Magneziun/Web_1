@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Card game — карты отдельными div</title>
+    <style>
+        .player {
+            margin: 20px ;
+        
+        }
+        .player-name {
+            margin-bottom: 8px;
+            font-size: 18px;
+            font-family: Arial;
+        }
+        .hand {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+        .card {
+            padding: 5px 12px;
+            border-radius: 3px;
+            background-color: #e0e0e0;
+            font-size: 34px;
+            text-align: center;
+            min-width: 50px;
+            font-family: Helvetica;
+    
+        }
+        .red {
+            color: #e34234;
+        }
+        .black {
+            color: #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+
+<div class="player">
+    <div class="player-name">Player 1:</div>
+    <div class="hand">
+        <div class="card black">2♠</div>
+        <div class="card red">9♥</div>
+        <div class="card red">6♦</div>
+        <div class="card black">A♣</div>
+        <div class="card black">Q♠</div>
+        <div class="card black">J♠</div>
+    </div>
+</div>
+
+<div class="player">
+    <div class="player-name">Player 2:</div>
+    <div class="hand">
+        <div class="card red">3♥</div>
+        <div class="card black">A♠</div>
+        <div class="card black">10♠</div>
+        <div class="card black">K♠</div>
+        <div class="card black">8♠</div>
+        <div class="card red">3♥</div>
+    </div>
+</div>
+
+</body>
+</html>

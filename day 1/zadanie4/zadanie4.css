@@ -1,0 +1,24 @@
+.season-title {
+    cursor: pointer;
+    font-weight: bold;
+}
+        .winter::before {
+            content: "❄️";             /* эмодзи снежинка */
+            margin-right: 8px;
+        }
+        .spring::before {
+            content: "🌸";             /* эмодзи цветок */
+            margin-right: 8px;
+        }
+        .summer::before {
+            content: "☀️";             /* эмодзи солнце */
+            margin-right: 8px;
+        }
+        .autumn::before {
+            content: "🍂";             /* эмодзи опавший лист */
+            margin-right: 8px;
+        }
+.season
+{
+   font-size: 1.2rem;
+}
