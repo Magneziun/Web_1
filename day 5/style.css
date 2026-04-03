@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    padding: 2rem;
+
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-row {
+        display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+
+    flex: 1;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.create-account {
+    background-color: #fe4e57;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.sign-in-link {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.sign-in-link a {
+    color: #fe4e57;
+    text-decoration: none;
+}
+.Logo_back
+{
+    background-color: #fe4e57;
+    position: relative;
+    overflow: hidden;
+}
+.Logo_back h6
+{
+    font-size: 20rem;
+    color: #383838;
+    transform: rotate(45deg);
+    left: -45%;
+    line-height: 1;
+    font-weight: 1000;
+
+}
+.Logo_back p
+{
+    color: white;
+    text-align: center;
+
+}
+.Page {
+    display: flex;
+    flex-direction: row;  
+
+
+}
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column; 
+    }
+    label {
+        width: 100%;
+    }
+    .Page
+    {
+        flex-direction: column;
+        
+    }
+    .Logo_back{
+        height: 7rem;
+    }
+
+}

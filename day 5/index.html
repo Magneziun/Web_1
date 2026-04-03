@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="Page">
+        <div class="Logo_back">
+                <p>.webdesing</p>
+                <h6>W</h6>
+        </div>
+
+    <div class="form-container">
+        
+        <form class="registration-form">
+
+            <div class="form-header">
+                <h2>Sign up</h2>
+            </div>
+            <div class="form-row">
+                <input type="text" id="first-name" placeholder="First Name" required>
+                <input type="text" id="last-name" placeholder="Last Name" required>
+            </div>
+            <div class="form-row">
+                <input type="tel" id="phone" placeholder="Phone" required>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-row">
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+            </div>
+            <div class="form-row">
+                <label>
+                    <input type="radio" name="gender" value="male" required> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" required> Female
+                </label>
+            </div>
+            <button type="submit" class="create-account">Create Account</button>
+            <div class="sign-in-link">
+                Already have an account? <a href="#">Sign in</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
