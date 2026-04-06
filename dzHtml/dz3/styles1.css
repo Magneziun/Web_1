@@ -1,0 +1,58 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #add8e6;
+            font-family: system-ui, -apple-system, sans-serif;
+            padding: 40px 20px;
+        }
+
+
+        .posts {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 15px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .grid-column {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            flex: 1 1 auto;
+            min-width: 0; 
+        }
+
+
+        .feed-item {
+            background: white;
+            overflow: hidden;
+        }
+
+        .feed-item img {
+            display: block;
+            width: 100%;      
+            height: auto;    
+        }
+
+        .content {
+            padding: 16px;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .desc {
+            font-size: 13px;
+            color: #555;
+            line-height: 1.4;
+        }

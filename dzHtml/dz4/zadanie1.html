@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма кредитной карты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+ <div class="container">
+        <div class="card-form">
+            <div class="form-header">
+                <h2>CREDIT CARD DETAILS</h2>
+            </div>
+            
+            <div class="form-body">
+                <!-- левая колонка - поля формы -->
+                <div class="form-fields">
+                    <div class="input-field">
+                        <label>Card Number</label>
+                        <input type="text" placeholder="1234 5678 9012 3456">
+                    </div>
+                    
+                    <div class="input-field">
+                        <label>Name On Card</label>
+                        <input type="text" placeholder="Name Surname" >
+                    </div>
+                    
+                    <div class="row">
+                        <div class="input-field half">
+                            <label>Expiry Date</label>
+                            <input type="text" placeholder="02 / 2017" >
+                        </div>
+                        
+                        <div class="input-field half">
+                            <label>CVV / CVN</label>
+                            <input type="password" placeholder="***" maxlength="3">
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="card-image">
+                    <img src="icons/moon_flag.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</html>
