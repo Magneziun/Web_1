@@ -10,6 +10,6 @@
 
 - Dz3    [открыть](https://html-preview.github.io/?url=https://raw.githubusercontent.com/Magneziun/Web_1/main/dzHtml/dz3/zadanie1.html)
 
-- Dz4    [открыть](https://html-preview.github.io/?url=https://raw.githubusercontent.com/Magneziun/Web_1/main/dzHtml/dz4/zadanie1.html)
+- Dz4    [открыть](https://html-preview.github.io/?url=https://raw.githubusercontent.com/Magneziun/Web_1/refs/heads/main/dzHtml/dz4/zadanie1.html)
 
 - Dz4_2 [открыть](https://html-preview.github.io/?url=https://raw.githubusercontent.com/Magneziun/Web_1/main/dzHtml/dz4_2/index.html)
