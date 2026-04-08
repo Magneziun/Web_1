@@ -108,7 +108,6 @@ body {
     flex: 1;
 }
 
-/* стили для placeholder */
 .input-field input::placeholder {
     color: #bbb;
     font-family: monospace;
