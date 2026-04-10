@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="UserProfile.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <div class="sidebar">
+        <h2 class="logo">Company</h2>
+        <hr></hr>
+        <nav>
+            <ul>
+                <li>
+                    <img src="assets/icons/dashboard_gray.svg" width="25">
+                    <span>Dashboard</span>
+                </li>
+                <li class="active">
+                    <img src="assets/icons/account_white.svg" width="25">
+                    <span>User Profile</span>
+                </li>
+                <li>
+                    <img src="assets/icons/map_gray.svg" width="25">
+                    <span>Maps</span>
+
+                </li>
+                <li>
+                    <img src="assets/icons/notify_gray.svg" width="25">
+                    <span>Notifications</span>
+                </li>
+                <li>
+                    <img src="assets/icons/support_gray.svg" width="25">
+                    <span>Support</span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="main">
+        <h1>User Profile</h1>
+        <div class="content">
+            <div class="card form">
+                <div class="card-header">
+                    <h2>Edit Profile</h2>
+                    <p>Complete your profile</p>
+                </div>
+
+                <form>
+                    <div class="row">
+                        <input class="inputs" type="text" placeholder="Company">
+                        <input class="inputs" type="text" placeholder="Username">
+                        <input class="inputs" type="email" placeholder="Email address">
+                    </div>
+
+                    <div class="row">
+                        <input class="inputs" type="text" placeholder="First name">
+                        <input class="inputs" type="text" placeholder="Last name">
+                    </div>
+
+                    <input class="inputs" type="text" placeholder="Address">
+
+                    <div class="row">
+                        <input class="inputs" type="text" placeholder="City">
+                        <input class="inputs" type="text" placeholder="Country">
+                        <input class="inputs" type="text" placeholder="Postal code">
+                    </div>
+
+                    <textarea class="inputs" placeholder="About me"></textarea>
+
+                    <button type="button">UPDATE PROFILE</button>
+                </form>
+            </div>
+
+           
+            <div class="card profile">
+                <img src="assets/content/avatar.jpg" class="avatar" alt="avatar">
+                <p class="role">CEO / CO-FOUNDER</p>
+                <h3>Alec Thompson</h3>
+                <p class="desc">
+                    Don't be scared of the truth because we need to restart the human foundation in truth...
+                </p>
+            </div>
+
+        </div>
+        <hr class="spliter"></hr>
+        <footer>
+            
+            <div class="footer-links">
+                <a href="#">ABOUT</a>
+                <a href="#">BLOG</a>
+                <a href="#">LICENSES</a>
+            </div>
+            <div class="copyright">
+                2019 - made with love
+            </div>
+        </footer>
+
+    </main>
+</div>
+
+</body>
+</html>
